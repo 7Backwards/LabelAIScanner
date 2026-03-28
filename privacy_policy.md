@@ -1,13 +1,12 @@
 # Privacy Policy for LabelAIScanner
 
-Last updated: January 30, 2026
+Last updated: March 28, 2026
 
 ## Overview
 
 LabelAIScanner is designed with a "privacy-first" philosophy. We believe that
 your personal content belongs to you. This application is built to ensure that
-your sensitive information—such as images and scanned text—remains private and
-stays on your device.
+your sensitive information—such as images and scanned text—remains private.
 
 ## Data Collection & Usage
 
@@ -16,8 +15,6 @@ stays on your device.
 LabelAIScanner **does not collect, store, or transmit your personal images or
 scanned text**.
 
-- Any images you scan or text processed by the AI stays exclusively on your
-  device.
 - We do not have access to your photo library beyond what you specifically
   select for scanning.
 - We do not collect usage statistics or analytics regarding how you use the
@@ -37,36 +34,40 @@ for subscription management. When you purchase a subscription:
 
 ## Internet Access
 
-While the core functionality of LabelAIScanner works offline, the app
-**accesses the internet for the following specific purposes**:
+LabelAIScanner **accesses the internet for the following specific purposes**:
 
+- Communicating with **Groq** to perform AI ingredient analysis.
 - Communicating with **Apple servers** to process App Store transactions.
 - Communicating with **RevenueCat** to validate subscription status and manage
   entitlements.
-- **No personal content (images or text) is ever transmitted during these
-  connections.**
+- **No personal images are ever transmitted. Only the extracted ingredient text
+  is sent to Groq for analysis.**
 
-## Apple Intelligence & On-Device Processing
+## AI Processing
 
-All artificial intelligence features in LabelAIScanner are powered by
-**Apple Intelligence**, Apple's on-device Large Language Model (LLM) technology.
+Ingredient analysis in LabelAIScanner is powered by **Groq**, a fast AI
+inference platform. When you scan a label:
 
-- All AI analysis occurs locally on your iPhone or iPad.
-- Your data never leaves your device for the purpose of AI analysis.
-- We do not use any cloud-based AI services or external LLM providers.
+- The text extracted from the label (not the photo) is sent to Groq's API for
+  analysis.
+- Groq processes this text to identify and explain each ingredient.
+- We do not associate this data with your identity.
+
+For more information, see [Groq's Privacy Policy](https://groq.com/privacy-policy/).
 
 ## Third-Party Services
 
 We only share data with third parties to the extent necessary to provide the
-subscription service:
+service:
 
+- **Groq:** [Privacy Policy](https://groq.com/privacy-policy/)
 - **RevenueCat:** [Privacy Policy](https://www.revenuecat.com/privacy)
 - **Apple:** [Privacy Policy](https://www.apple.com/legal/privacy/)
 
 ## Changes to This Policy
 
 We may update our Privacy Policy from time to time. Our commitment to
-maintaining on-device privacy for your personal scans remains our primary focus.
+protecting your privacy remains our primary focus.
 
 ## Contact Us
 
